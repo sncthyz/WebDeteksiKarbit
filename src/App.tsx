@@ -3,7 +3,7 @@ import { useState } from "react";
 
 export default function App(){
 const [nama,setNama] = useState('');
-const [output,setOutput] = useState('');
+const [output,setOutput] = useState<Record<string, number>>({});
 
   const hasils = [
       <div className="p-4 place-items-center text-center shadow-lg bg-neutral-950 md:w-140 w-110 rounded-3xl mt-5 mb-5 mx-auto ">
