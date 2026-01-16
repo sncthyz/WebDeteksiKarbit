@@ -63,7 +63,7 @@ const [output,setOutput] = useState<Record<string, number>>({});
   return (
     <>
     <div className="relative min-h-screen overflow-hidden">
-      <video autoPlay loop muted className="fixed inset-0 w-full h-full object-cover">
+      <video autoPlay loop muted playsInline className="fixed inset-0 w-full h-full object-cover ">
         <source  src="./src/assets/Gaming Background.mp4"/>
       </video>
       <div className="relative z-10 text-center place-content-center justify-center items-center min-h-screen">
