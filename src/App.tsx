@@ -73,7 +73,7 @@ const [output,setOutput] = useState('');
           <h1 className="text-yellow-300 font-extrabold md:text-6xl text-4xl">Seberapa Karbit Kamu?</h1>
           <p className="text-yellow-300 font-bold text-2xl">Tulis Namamu disini</p>
           <div className="pt-5 pb-5">
-      <input type="text" className= "border border-yellow-300 w-100 p-3 rounded-2xl" value={nama} onChange={(e) => setNama(e.target.value)}/>
+      <input type="text" className= "border border-yellow-300 w-100 p-3 rounded-2xl" value={nama} onChange={(e) => setNama(e.target.value)} placeholder="Masukkan namamu"/>
 
           </div>
       <button onClick={handleSubmit} className="bg-yellow-300 font-bold rounded-2xl border w-100 border-black text-black p-3">Cek</button>
