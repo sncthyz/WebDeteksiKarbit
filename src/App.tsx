@@ -2,11 +2,9 @@ import { useState } from "react";
 import Gamings from "./assets/gamings.mp4";
 import Gambar2 from "./assets/gambar2.png";
 import Andre from "./assets/andre.gif";
-import Gambar3 from "./assets/gambar3.png";
 import Happy from "./assets/Happy.gif";
 import hai from "./assets/hai.gif";
 import gif1 from "./assets/gif1.gif";
-
 
 
 export default function App(){
@@ -40,7 +38,7 @@ const [output,setOutput] = useState<Record<string, number>>({});
        <div className="p-4 place-items-center text-center shadow-lg bg-neutral-950 w-140 rounded-3xl mt-5 mb-5 mx-auto ">
       <h1 className="text-yellow-300 text-3xl font-bold">Kamu {nama} terdeteksi 73% Karbit</h1>
       <p className="text-yellow-300 text-xl mb-3 font-semibold">Duh kebangetan ini mah </p>
-           <img src={Gambar3} className="mx-auto size-55" alt="" />
+           <img src={hai} className="mx-auto size-55" alt="" />
 
       </div>,
        <div className="p-4 place-items-center text-center shadow-lg bg-neutral-950 w-140 rounded-3xl mt-5 mb-5 mx-auto ">
@@ -80,7 +78,7 @@ const [output,setOutput] = useState<Record<string, number>>({});
         <div className="">
 
 
-          <h1 className="text-yellow-300 font-extrabold md:text-6xl text-4xl">Seberapa Karbit Kamu?</h1>
+          <h1 className="text-yellow-300 font-extrabold md:text-6xl text-4xl mb-3">Seberapa Karbit Kamu?</h1>
           <p className="text-yellow-300 font-bold text-2xl">Tulis Namamu disini</p>
           <div className="pt-5 pb-5">
       <input type="text" className= "border border-yellow-300 w-100 p-3 rounded-2xl" value={nama} onChange={(e) => setNama(e.target.value)} placeholder="Masukkan namamu"/>
