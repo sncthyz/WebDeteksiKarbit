@@ -18,30 +18,30 @@ const [output,setOutput] = useState<Record<string, number>>({});
            <img src={gif1} className="mx-auto size-55" alt="" />
       </div>,
 
-      <div className="p-4 place-items-center text-center shadow-lg bg-neutral-950 w-140 rounded-3xl mt-5 mb-5 mx-auto ">
+      <div className="p-4 place-items-center text-center shadow-lg bg-neutral-950 md:w-140 w-100 rounded-3xl mt-5 mb-5 mx-auto ">
       <h1 className="text-yellow-300 text-3xl font-bold">Kamu {nama} terdeteksi 100% Karbit</h1>
       <p className="text-yellow-300 text-xl mb-3 font-semibold">Karbit bet jir </p>
            <img src={Gambar2} className="mx-auto size-55" alt="" />
       </div>,
-      <div className="p-4 place-items-center text-center shadow-lg bg-neutral-950 w-140 rounded-3xl mt-5 mb-5 mx-auto ">
+      <div className="p-4 place-items-center text-center shadow-lg bg-neutral-950 md:w-140 w-100 rounded-3xl mt-5 mb-5 mx-auto ">
       <h1 className="text-yellow-300 text-3xl font-bold">Kamu {nama} terdeteksi 25% Karbit</h1>
       <p className="text-yellow-300 text-xl mb-3 font-semibold">Aman lah ya </p>
            <img src={hai} className="mx-auto size-55" alt="" />
 
       </div>,
-       <div className="p-4 place-items-center text-center shadow-lg bg-neutral-950 w-140 rounded-3xl mt-5 mb-5 mx-auto ">
+      <div className="p-4 place-items-center text-center shadow-lg bg-neutral-950 md:w-140 w-100 rounded-3xl mt-5 mb-5 mx-auto ">
       <h1 className="text-yellow-300 text-3xl font-bold">Kamu {nama} terdeteksi 60% Karbit</h1>
       <p className="text-yellow-300 text-xl mb-3 font-semibold">Mulai dah karbitnya </p>
            <img src={Andre} className="mx-auto size-55" alt="" />
 
       </div>,
-       <div className="p-4 place-items-center text-center shadow-lg bg-neutral-950 w-140 rounded-3xl mt-5 mb-5 mx-auto ">
+      <div className="p-4 place-items-center text-center shadow-lg bg-neutral-950 md:w-140 w-100 rounded-3xl mt-5 mb-5 mx-auto ">
       <h1 className="text-yellow-300 text-3xl font-bold">Kamu {nama} terdeteksi 73% Karbit</h1>
       <p className="text-yellow-300 text-xl mb-3 font-semibold">Duh kebangetan ini mah </p>
            <img src={hai} className="mx-auto size-55" alt="" />
 
       </div>,
-       <div className="p-4 place-items-center text-center shadow-lg bg-neutral-950 w-140 rounded-3xl mt-5 mb-5 mx-auto ">
+      <div className="p-4 place-items-center text-center shadow-lg bg-neutral-950 md:w-140 w-100 rounded-3xl mt-5 mb-5 mx-auto ">
       <h1 className="text-yellow-300 text-3xl font-bold">Kamu {nama} terdeteksi 0% Karbit</h1>
       <p className="text-yellow-300 text-xl mb-3 font-semibold"> Selamat anda bukan seorang karbit </p>
            <img src={Happy} className="mx-auto size-55" alt="" />
