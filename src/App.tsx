@@ -43,7 +43,7 @@ const [output,setOutput] = useState<Record<string, number>>({});
       </div>,
       <div className="p-4 place-items-center text-center shadow-lg bg-neutral-950 md:w-140 w-80 rounded-3xl mt-5 mb-5 mx-auto ">
       <h1 className="text-yellow-300 md:text-3xl text-2xl font-bold">Kamu {nama} terdeteksi 0% Karbit</h1>
-      <p className="text-yellow-300 md:text-xl text-lg mb-3 font-semibold"> Selamat anda bukan seorang karbit </p>
+      <p className="text-yellow-300 md:text-xl text-lg mb-3 font-semibold"> Selamat! Anda bukan seorang karbit </p>
            <img src={Happy} className="mx-auto w-55" alt="" />
 
       </div>,
